@@ -1,0 +1,309 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi",
+        "hello",
+        "hey",
+        "good morning",
+        "good afternoon",
+        "good evening",
+        "hey there",
+        "hi there",
+        "greetings",
+        "hello there",
+        "howdy",
+        "is anyone there"
+      ],
+      "responses": [
+        "Hello! I'm Uni-Assist, an automated assistant for Solent University. Ask me about the library, sports, applying, fees, accommodation, wellbeing support or careers."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you later",
+        "see you",
+        "take care",
+        "talk later",
+        "that is all",
+        "i am done",
+        "cheers bye",
+        "have a good day",
+        "thats all for now",
+        "catch you later"
+      ],
+      "responses": [
+        "Goodbye! Come back any time."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thanks",
+        "thank you",
+        "thanks a lot",
+        "many thanks",
+        "that was helpful",
+        "great thanks",
+        "cheers",
+        "thank you so much",
+        "much appreciated",
+        "ok thanks",
+        "perfect thank you",
+        "that helps"
+      ],
+      "responses": [
+        "You're welcome! Is there anything else I can help with?"
+      ]
+    },
+    {
+      "tag": "bot_identity",
+      "patterns": [
+        "who are you",
+        "what is your name",
+        "what are you",
+        "are you a robot",
+        "are you a human",
+        "what can you do",
+        "what can you help with",
+        "tell me about yourself",
+        "are you a real person",
+        "what is uni-assist",
+        "help",
+        "what do you know"
+      ],
+      "responses": [
+        "I'm Uni-Assist, an automated assistant (not a person) for Solent University. I answer common questions and point you to the right team. For anything I can't answer, contact the Student Hub or the University's general enquiries line on 023 8201 3000."
+      ]
+    },
+    {
+      "tag": "library",
+      "patterns": [
+        "do you have a library",
+        "where is the library",
+        "library opening hours",
+        "when does the library open",
+        "can i borrow books",
+        "how do i borrow a book",
+        "is there a study space",
+        "library study rooms",
+        "how do i book a study room",
+        "can i access the library at night",
+        "library card",
+        "how many books can i borrow"
+      ],
+      "responses": [
+        "Solent's Library is on five floors with WiFi throughout, hundreds of study spaces, bookable individual and group study rooms, and a student kitchen. Rooms can be booked up to 7 days ahead (up to 4 hours a day): https://libguides.solent.ac.uk/bookings/rooms. Opening hours were changing from September 2026, so please check the current times here: https://students.solent.ac.uk/studying/library/library-opening-times"
+      ]
+    },
+    {
+      "tag": "sports_gym",
+      "patterns": [
+        "can i use the gym",
+        "does the university have a gym",
+        "gym membership",
+        "sports facilities",
+        "how do i join a sports club",
+        "is there a swimming pool",
+        "gym opening times",
+        "student sports centre",
+        "can i play football at university",
+        "campus fitness centre",
+        "are there sports societies",
+        "how much is gym membership"
+      ],
+      "responses": [
+        "Yes. The Solent Sports Complex has a gym open to students, with monthly memberships and no contract. You can sign up on the Solent Sport app or at Sports Complex reception. Current prices, opening times and clubs are on https://sportscomplex.solent.ac.uk/ (please check there, as prices can change)."
+      ]
+    },
+    {
+      "tag": "admissions",
+      "patterns": [
+        "how do i apply",
+        "admission requirements",
+        "how can i apply to the university",
+        "application deadline",
+        "what are the entry requirements",
+        "when do applications open",
+        "how to apply for a masters",
+        "do i need ielts",
+        "english language requirements",
+        "how long does an application take",
+        "can i apply as an international student",
+        "what documents do i need to apply"
+      ],
+      "responses": [
+        "Undergraduate applications are made through UCAS. For entry requirements, deadlines and how to apply for your course (including postgraduate and international applicants), see the course page on solent.ac.uk or contact the Admissions team: admissions@solent.ac.uk, 023 8201 5066."
+      ]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "what courses do you offer",
+        "list of programmes",
+        "what can i study",
+        "do you offer computer science",
+        "undergraduate courses",
+        "postgraduate programmes",
+        "available degrees",
+        "do you have a data science course",
+        "how long is the masters course",
+        "course duration",
+        "what subjects are available",
+        "tell me about your degree programmes"
+      ],
+      "responses": [
+        "Solent offers undergraduate and postgraduate courses across many subject areas. The course pages on solent.ac.uk list each course's content, entry requirements and length. For questions about a specific course, contact admissions@solent.ac.uk or 023 8201 5066."
+      ]
+    },
+    {
+      "tag": "fees",
+      "patterns": [
+        "how much are the tuition fees",
+        "what are the fees",
+        "course fees",
+        "cost of studying",
+        "international student fees",
+        "is there a scholarship",
+        "how do i pay my fees",
+        "can i pay in instalments",
+        "do you offer bursaries",
+        "fee for masters",
+        "financial support for students",
+        "how much does it cost to study here"
+      ],
+      "responses": [
+        "Tuition fees vary by course, level of study and student status, so I can't give a single figure. International fees are published here: https://www.solent.ac.uk/finance/tuition-fees-explained/international-tuition-fees. For funding and money questions, email student.funding@solent.ac.uk. Scholarships and bursaries may be available, so check the Finance section on solent.ac.uk."
+      ]
+    },
+    {
+      "tag": "accommodation",
+      "patterns": [
+        "do you have student accommodation",
+        "how do i apply for halls",
+        "hostel availability",
+        "where can i live",
+        "cost of student housing",
+        "is accommodation guaranteed",
+        "university halls of residence",
+        "can i live on campus",
+        "how much is rent",
+        "accommodation for international students",
+        "student housing options",
+        "when can i book a room",
+	"dorm rooms for students",
+	"are there dormitories",
+	"where do first year students live"
+      ],
+      "responses": [
+        "Solent has four halls of residence in the city centre, with around 1,000 single study-bedrooms (some en-suite). You apply online once Solent is your first choice and you have accepted an offer, and the FAQs explain the deadline for a guaranteed place. Details: https://solent.ac.uk/accommodation. Contact accommodation@solent.ac.uk or 023 8201 5040. For private housing, email private.housing@solent.ac.uk."
+      ]
+    },
+    {
+      "tag": "health_services",
+      "patterns": [
+        "where is the campus health centre",
+        "can i see a doctor on campus",
+        "health services for students",
+        "how do i register with a gp",
+        "is there a nurse on campus",
+        "can i get a flu jab",
+        "campus medical centre",
+        "where can i get medical help",
+        "student health service opening hours",
+        "do you have a pharmacy on campus",
+        "vaccinations for students",
+        "first aid on campus"
+      ],
+      "responses": [
+        "For health and wellbeing advice, start with the Student Hub (student.hub@solent.ac.uk, 023 8201 5200), who can help with questions about your health and studies. You should register with a local GP. For urgent but non-emergency advice call NHS 111; in an emergency call 999."
+      ]
+    },
+    {
+      "tag": "careers",
+      "patterns": [
+        "do you help with finding jobs",
+        "careers service",
+        "can i get a part time job",
+        "how do i get an internship",
+        "cv help",
+        "job opportunities for students",
+        "graduate jobs",
+        "placement year",
+        "career advice",
+        "work experience opportunities",
+        "can you review my cv",
+        "employability support"
+      ],
+      "responses": [
+        "Solent Careers is free for students and graduates. It offers one-to-one guidance, CV help, placements and work experience, and a jobs board through Solent Careers Online. There is a drop-in in the Student Hub (check current times), or email careers@solent.ac.uk. More: https://students.solent.ac.uk/careers"
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "how can i contact the university",
+        "phone number",
+        "email address of admissions",
+        "who do i talk to",
+        "contact student support",
+        "where is the main office",
+        "how do i reach someone",
+        "i want to speak to a person",
+        "can i call someone",
+        "student services contact",
+        "talk to an advisor",
+        "contact details"
+      ],
+      "responses": [
+        "General enquiries: 023 8201 3000 (East Park Terrace, Southampton, SO14 0YN). Admissions: admissions@solent.ac.uk, 023 8201 5066. Student Hub (support with your course or personal matters): student.hub@solent.ac.uk, 023 8201 5200."
+      ]
+    },
+    {
+      "tag": "wellbeing_sensitive",
+      "sensitive": true,
+      "patterns": [
+        "i am feeling depressed",
+        "i need to see a counsellor",
+        "how do i book a mental health appointment",
+        "i am struggling with my mental health",
+        "i feel very anxious about everything",
+        "i feel overwhelmed and cant cope",
+        "is there counselling for students",
+        "i am so stressed i cant sleep",
+        "i need someone to talk to",
+        "i feel really low",
+        "mental health support",
+        "i am having a panic attack"
+      ],
+      "responses": [
+        "I'm sorry you're going through this. I'm an automated assistant and can't give personal support, but Solent's Mental Health and Wellbeing team can help, and you can contact them at wellbeing@solent.ac.uk or through the Student Hub (student.hub@solent.ac.uk, 023 8201 5200). If you need help urgently, see https://students.solent.ac.uk/student-hub/mental-health-support/i-need-help-urgently. If you are in immediate danger, call 999, or call Samaritans free on 116 123, any time."
+      ]
+    },
+    {
+      "tag": "harassment_sensitive",
+      "sensitive": true,
+      "patterns": [
+        "i am being bullied",
+        "someone is harassing me",
+        "how do i report harassment",
+        "i have been discriminated against",
+        "i feel unsafe on campus",
+        "report sexual harassment",
+        "i want to make a complaint about a lecturer",
+        "someone is stalking me",
+        "i was treated unfairly because of my race",
+        "how to report bullying",
+        "i am being threatened",
+        "i need to report an incident"
+      ],
+      "responses": [
+        "I'm sorry this has happened. I can't take reports myself, but the Student Hub can explain your options and support you: student.hub@solent.ac.uk, 023 8201 5200, or use the University's online CARE report. If you are in danger, call 999."
+      ]
+    }
+  ]
+}
